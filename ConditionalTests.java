@@ -50,50 +50,5 @@ public class ConditionalTests {
             }
         }
         while (age >= 20);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        //if
-//        if (age > 20) System.out.println("You're not a teenager no more!");
-//
-//        //if - else
-//        System.out.println((age > 20) ? "Man up!" : "Still a baby");
-//
-//        //if - else-if - else
-//        if (age > 20 ) System.out.println("You're not a teenager no more!");
-//        else if (age == 20 ) System.out.println("Just the right age for us!");
-//        else System.out.println("Get out of here, kid!");
-
-        //Nested if(if,if) - else
-//        if (age == 20){
-//            if (javaGuy.contains("Java") && pyGuy.contains("Java")){
-//                System.out.println("You would be good for our program as we use spring boot");
-//            }
-//            if (javaGuy.contains("Python") && pyGuy.contains("Python")){
-//                System.out.println("You'd be good in Machine Learning a lot my friend!");
-//            }
-//        }
     }
 }
