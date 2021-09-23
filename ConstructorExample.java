@@ -1,14 +1,15 @@
 public class ConstructorExample {
 
-    String firstName;
-    String lastName;
-    String emailAddress;
-    int idNumber;
-    int age;
+    private String firstName;
+    private String lastName;
+    private String emailAddress;
+    private int idNumber;
+    private int age;
 
     public ConstructorExample(){
 
     }
+
     public ConstructorExample(String firstName, String lastName, String emailAddress, int idNumber, int age){
         this.firstName = firstName;
         this.lastName = lastName;
@@ -59,11 +60,13 @@ public class ConstructorExample {
 }
 
 class Student{
+
     public static void main(String[] args) {
         ConstructorExample student = new ConstructorExample("Kelvin","Kimani","kelvin@gmail.com",35306225,50);
         student.setAge(20);
         student.setAge(15);
 
+        System.out.println();
         System.out.println(student.getLastName());
     }
 }

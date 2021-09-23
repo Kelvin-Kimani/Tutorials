@@ -11,7 +11,7 @@ public class JDBCDelete {
 
             //Load Driver but we no longer do that in 8+
 
-            //Create a connection
+            //Create a connection with the database - could be local or remote
             Connection conn = DriverManager.getConnection(url, username, pwd);
 
             //Create a statement

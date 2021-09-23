@@ -9,7 +9,7 @@ public class BitwiseOperation {
         int a = 20; //In binary 0001 0100
         byte c = -5; // In binary 1000 0101
         int b = 15; //In binary 0000 1111
-        int result = 0;
+        int result;
 
         // & operator
         result = a & b;

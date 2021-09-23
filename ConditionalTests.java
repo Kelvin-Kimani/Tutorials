@@ -31,12 +31,25 @@ public class ConditionalTests {
 
             System.out.println("We are looking for two slots. Fill in \"Java\" or \"Python\" for slot applying to: ");
 
-            while (!scan.hasNext());
             String whichLanguageGuy = scan.next();
 
+            //switch case
+
+//            switch (whichLanguageGuy){
+//                case "Java":
+//                    System.out.println("You would be good for our program as we use spring boot. We will be in contact");
+//                    break;
+//
+//                case "Python":
+//                    System.out.println("You'd be good in Machine Learning a lot my friend! \nUnfortunately, we don't offer that here!");
+//                    break;
+//
+//                default:
+//                    System.out.println("Please type correctly.");
+//
+//            }
 
             // if, else-if, else
-
             if (whichLanguageGuy.equals("Java")){
                 System.out.println("You would be good for our program as we use spring boot. We will be in contact");
                 break;
@@ -47,6 +60,8 @@ public class ConditionalTests {
             }
             else if (!whichLanguageGuy.equals("Java") && !whichLanguageGuy.equals("Python")){
                 System.out.println("Please type correctly.");
+
+
             }
         }
         while (age >= 20);
